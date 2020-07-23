@@ -1,0 +1,39 @@
+{
+  "name": "procursus",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next",
+    "build": "$npm_execpath run jslint && next build && next export",
+    "jslint": "eslint \"components/**\" \"pages/**\"  --fix"
+  },
+  "dependencies": {
+    "next": "^9.4.4",
+    "preact": "^10.4.4",
+    "preact-render-to-string": "^5.1.9",
+    "react": "github:preact-compat/react#1.0.0",
+    "react-dom": "github:preact-compat/react-dom#1.0.0",
+    "react-plx": "^1.3.15",
+    "react-ssr-prepass": "npm:preact-ssr-prepass@^1.0.1",
+    "styled-components": "^5.1.1"
+  },
+  "devDependencies": {
+    "@prefresh/next": "0.3.2",
+    "@types/node": "14.0.23",
+    "@types/react": "16.9.43",
+    "@types/styled-components": "5.1.1",
+    "@typescript-eslint/eslint-plugin": "3.6.1",
+    "@typescript-eslint/parser": "3.6.1",
+    "eslint": "7.4.0",
+    "eslint-config-prettier": "6.11.0",
+    "eslint-plugin-better-styled-components": "1.1.2",
+    "eslint-plugin-prettier": "3.1.4",
+    "eslint-plugin-react": "7.20.3",
+    "eslint-plugin-react-hooks": "4.0.8",
+    "next-google-fonts": "1.2.1",
+    "prettier": "2.0.5",
+    "react-refresh": "0.8.3",
+    "typescript": "3.9.7"
+  }
+}
