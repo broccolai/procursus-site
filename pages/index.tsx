@@ -1,5 +1,12 @@
 import NextHead from 'next/head';
 import React from 'react';
+import styled from 'styled-components';
+
+import Packages from '../components/Packages';
+
+const Header = styled.h1`
+  text-align: center;
+`;
 
 const Index = () => (
   <>
@@ -10,7 +17,8 @@ const Index = () => (
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <link rel="icon" href="/favicon.ico" />
     </NextHead>
-    <h1>procursus</h1>
+    <Header>procursus</Header>
+    <Packages />
   </>
 );
 
